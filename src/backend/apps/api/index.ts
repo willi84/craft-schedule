@@ -5,7 +5,8 @@ import { getHttpStatusItem } from "../../_shared/http/http";
 import { LOG, OK, WARNING } from "../../_shared/log/log";
 const HTMLParser = require('node-html-parser');
 
-const PAGE = 'https://craft-conf.com/2025'
+//const PAGE = 'https://craft-conf.com/2025';
+const PAGE = 'https://craft-conf.com/2026'
 const scheduleUrl = [`${PAGE}/schedule`]
 
 const getVersion = (url: string) => {
